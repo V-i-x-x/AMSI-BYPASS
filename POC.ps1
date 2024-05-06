@@ -126,7 +126,7 @@ $ApiReturn = $false
    	 $bytes = [byte[]]($ReadedMemoryArray[$i], $ReadedMemoryArray[$i + 1], $ReadedMemoryArray[$i + 2], $ReadedMemoryArray[$i + 3], $ReadedMemoryArray[$i + 4], $ReadedMemoryArray[$i + 5], $ReadedMemoryArray[$i + 6], $ReadedMemoryArray[$i + 7])
    	 [IntPtr] $PointerToCompare = [bitconverter]::ToInt64($bytes,0)
    	 if ($PointerToCompare -eq $funcAddr) {
-   		 Write-Host "Found @ $($i)!"
+   		 Write-Host "Found @ $($j) : $($i)!"
    		 [IntPtr] $MemoryToPatch = [Int64] $MethodPointerToSearch + $i
    		 break initialloop
    	 }
