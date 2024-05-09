@@ -1,4 +1,4 @@
-__AMSI WRITE RAID VULNERABILITY_
+__AMSI WRITE RAID VULNERABILITY__
 
 This is a 0day vulnerability discovery for bypassing Antimalware Scan Interface (AMSI) and I will call it AMSI Write Raid, I mean why not?
 
