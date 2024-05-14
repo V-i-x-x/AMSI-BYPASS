@@ -16,4 +16,4 @@ Tested on win11 Build 22631 (Latest at the time of writing) and windows Preview.
 
 **Update 14/05/2024**
 
-I wanted to mention that this was not the only writable entry that you can overwrite to bypass AMSI with the same concept. I disovered that most of the highlighed entries (vulnerable_entries.png) in the call stack image below are as well vulnerable to the same vulnerability discussed in part 1 (writable_entries_part_1.png). The entries are not write protected, so overwriting any of the call pointers would bypass Amsi as well.
+I wanted to mention that this was not the only writable entry that you can overwrite to bypass AMSI with the same concept. I disovered that most of the highlighed entries (vulnerable_entries.png) in the call stack image below are as well vulnerable to the same vulnerability discussed in the paper / blog (writable_entries_part_1.png). The entries are not write protected, so overwriting any of the call pointers would bypass Amsi as well.
