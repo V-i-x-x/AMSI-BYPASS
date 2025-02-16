@@ -1,5 +1,5 @@
 
-## One liner AV Bypass
+## One liner Signature Bypass for the bypass
 
 ✅ Undetected => More info in AvBypassTricks Folder
 
