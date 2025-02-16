@@ -1,5 +1,5 @@
 
-## One liner Signature Bypass for the bypass
+## One liner Signature Bypass for the AMSI BYPASS
 
 ✅ Undetected => More info in AvBypassTricks Folder
 
