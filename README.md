@@ -1,6 +1,6 @@
 
-## One liner Signature Bypass for the AMSI BYPASS
-
+## One liner Signature Bypass for the AMSI WRITE RAID BYPASS
+0
 ✅ Undetected => More info in AvBypassTricks Folder
 
 
