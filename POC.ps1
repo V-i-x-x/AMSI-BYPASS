@@ -23,7 +23,7 @@ function MagicBypass {
 param(
     $InitialStart = 0x50000,
     $NegativeOffset= 0x50000,
-    $MaxOffset = 0x1000000,
+    $MaxOffset = 0x2000000,
     $ReadBytes = 0x50000
 )
 
